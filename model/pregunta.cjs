@@ -7,7 +7,7 @@ const selectFunction = async function getPreguntas() {
     n.type({
       id_pregunta: n.number('pregunta.id_pregunta', { id: true }),
       nombre_pregunta: n.string('pregunta.nombre_pregunta'),
-      temas: n.string('pregunta.tema'),
+      tema: n.string('pregunta.tema'),
       opciones: n.array(
         n.type({
           id_opcion_pregunta: n.number('opcion_pregunta.id_opcion_pregunta', { id: true }),

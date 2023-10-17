@@ -7,7 +7,7 @@ type Pregunta {
 }
 
 type OpcionPregunta {
-    id_opcion_pregunta: Int!
+    id_opcion_pregunta: Int
     nombre_opcion: String!
     correcta: Boolean
 }
