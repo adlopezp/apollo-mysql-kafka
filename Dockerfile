@@ -1,5 +1,5 @@
 # Uses the node base image with the latest LTS version
-FROM node:18.18
+FROM node:lts-bookworm-slim
 # Informs Docker that the container listens on the 
 # specified network ports at runtime
 EXPOSE 4000
